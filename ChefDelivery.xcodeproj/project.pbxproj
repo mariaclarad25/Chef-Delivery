@@ -15,6 +15,7 @@
 		B70C38B52DD13AEA002FAFC5 /* OrderTypeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C38B42DD13AEA002FAFC5 /* OrderTypeGridView.swift */; };
 		B70C38B82DD141B3002FAFC5 /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C38B72DD141B3002FAFC5 /* OrderType.swift */; };
 		B70C38BA2DD14258002FAFC5 /* DataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C38B92DD14258002FAFC5 /* DataSourceMock.swift */; };
+		B764CEF02DD21AB70062E61A /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B764CEEF2DD21AB70062E61A /* OrderTypeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		B70C38B42DD13AEA002FAFC5 /* OrderTypeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeGridView.swift; sourceTree = "<group>"; };
 		B70C38B72DD141B3002FAFC5 /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
 		B70C38B92DD14258002FAFC5 /* DataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMock.swift; sourceTree = "<group>"; };
+		B764CEEF2DD21AB70062E61A /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				B70C38B42DD13AEA002FAFC5 /* OrderTypeGridView.swift */,
+				B764CEEF2DD21AB70062E61A /* OrderTypeView.swift */,
 			);
 			path = GridView;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				B70C38B82DD141B3002FAFC5 /* OrderType.swift in Sources */,
 				B70C38A42DD128FD002FAFC5 /* ContentView.swift in Sources */,
 				B70C38BA2DD14258002FAFC5 /* DataSourceMock.swift in Sources */,
+				B764CEF02DD21AB70062E61A /* OrderTypeView.swift in Sources */,
 				B70C38B52DD13AEA002FAFC5 /* OrderTypeGridView.swift in Sources */,
 				B70C38A22DD128FD002FAFC5 /* ChefDeliveryApp.swift in Sources */,
 				B70C38B22DD12E58002FAFC5 /* NavigationBar.swift in Sources */,
