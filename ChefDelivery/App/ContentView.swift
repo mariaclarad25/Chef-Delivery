@@ -17,18 +17,19 @@ struct ContentView: View {
                 VStack(spacing: 20){
                     OrderTypeGridView()
                     CarouselTabView()
+                    StoresConteinerView()
                 }
             }
         }
     }
     
-    struct ContentView_Previews: PreviewProvider{
+    /*struct ContentView_Previews: PreviewProvider{
         static var previews: some View{
             ContentView()
                 .previewLayout(.sizeThatFits)
         }
-    }
+    }*/
 }
-/*#Preview {
+#Preview {
     ContentView()
-}*/
+}
