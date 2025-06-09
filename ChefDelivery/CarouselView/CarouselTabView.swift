@@ -27,9 +27,3 @@ struct CarouselTabView: View {
 #Preview {
     CarouselTabView()
 }
-
-/*struct CarouselTabView_Previews: PreviewProvider{
-    static var previews: some View{
-        CarouselTabView()
-    }
-}*/

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B701FD882DF71E6100367C66 /* StoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701FD872DF71E6100367C66 /* StoreDetailView.swift */; };
+		B701FD8A2DF7266A00367C66 /* StoreFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701FD892DF7266A00367C66 /* StoreFile.swift */; };
+		B701FD8C2DF726DD00367C66 /* ProductType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701FD8B2DF726DD00367C66 /* ProductType.swift */; };
 		B70C38A22DD128FD002FAFC5 /* ChefDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C38A12DD128FD002FAFC5 /* ChefDeliveryApp.swift */; };
 		B70C38A42DD128FD002FAFC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C38A32DD128FD002FAFC5 /* ContentView.swift */; };
 		B70C38A62DD12900002FAFC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70C38A52DD128FF002FAFC5 /* Assets.xcassets */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B701FD872DF71E6100367C66 /* StoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailView.swift; sourceTree = "<group>"; };
+		B701FD892DF7266A00367C66 /* StoreFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreFile.swift; sourceTree = "<group>"; };
+		B701FD8B2DF726DD00367C66 /* ProductType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductType.swift; sourceTree = "<group>"; };
 		B70C389E2DD128FD002FAFC5 /* ChefDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70C38A12DD128FD002FAFC5 /* ChefDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryApp.swift; sourceTree = "<group>"; };
 		B70C38A32DD128FD002FAFC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,12 +75,12 @@
 		B70C38A02DD128FD002FAFC5 /* ChefDelivery */ = {
 			isa = PBXGroup;
 			children = (
-				B796C3DA2DD3708600B0592F /* StoresView */,
-				B764CEF12DD224C50062E61A /* CarouselView */,
-				B70C38B62DD1417A002FAFC5 /* Model */,
-				B70C38B32DD13A7F002FAFC5 /* GridView */,
 				B70C38B02DD12E17002FAFC5 /* App */,
+				B70C38B62DD1417A002FAFC5 /* Model */,
 				B70C38AF2DD12DF9002FAFC5 /* NavigationBar */,
+				B70C38B32DD13A7F002FAFC5 /* GridView */,
+				B764CEF12DD224C50062E61A /* CarouselView */,
+				B796C3DA2DD3708600B0592F /* StoresView */,
 				B70C38A52DD128FF002FAFC5 /* Assets.xcassets */,
 				B70C38A72DD12900002FAFC5 /* Preview Content */,
 			);
@@ -100,8 +106,8 @@
 		B70C38B02DD12E17002FAFC5 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				B70C38A32DD128FD002FAFC5 /* ContentView.swift */,
 				B70C38A12DD128FD002FAFC5 /* ChefDeliveryApp.swift */,
+				B70C38A32DD128FD002FAFC5 /* ContentView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -120,6 +126,8 @@
 			children = (
 				B70C38B72DD141B3002FAFC5 /* OrderType.swift */,
 				B70C38B92DD14258002FAFC5 /* DataSourceMock.swift */,
+				B701FD892DF7266A00367C66 /* StoreFile.swift */,
+				B701FD8B2DF726DD00367C66 /* ProductType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -138,6 +146,7 @@
 			children = (
 				B796C3DB2DD370AC00B0592F /* StoreItemView.swift */,
 				B796C3DD2DD3741600B0592F /* StoresConteinerView.swift */,
+				B701FD872DF71E6100367C66 /* StoreDetailView.swift */,
 			);
 			path = StoresView;
 			sourceTree = "<group>";
@@ -213,12 +222,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B70C38B82DD141B3002FAFC5 /* OrderType.swift in Sources */,
+				B701FD8C2DF726DD00367C66 /* ProductType.swift in Sources */,
 				B796C3DE2DD3741600B0592F /* StoresConteinerView.swift in Sources */,
 				B764CEF32DD224FB0062E61A /* CarouselItemView.swift in Sources */,
 				B70C38A42DD128FD002FAFC5 /* ContentView.swift in Sources */,
 				B70C38BA2DD14258002FAFC5 /* DataSourceMock.swift in Sources */,
+				B701FD8A2DF7266A00367C66 /* StoreFile.swift in Sources */,
 				B764CEF02DD21AB70062E61A /* OrderTypeView.swift in Sources */,
 				B796C3DC2DD370AC00B0592F /* StoreItemView.swift in Sources */,
+				B701FD882DF71E6100367C66 /* StoreDetailView.swift in Sources */,
 				B70C38B52DD13AEA002FAFC5 /* OrderTypeGridView.swift in Sources */,
 				B70C38A22DD128FD002FAFC5 /* ChefDeliveryApp.swift in Sources */,
 				B70C38B22DD12E58002FAFC5 /* NavigationBar.swift in Sources */,
