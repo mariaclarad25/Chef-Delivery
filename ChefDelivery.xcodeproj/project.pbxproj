@@ -23,6 +23,7 @@
 		B764CEF52DD227440062E61A /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B764CEF42DD227440062E61A /* CarouselTabView.swift */; };
 		B796C3DC2DD370AC00B0592F /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B796C3DB2DD370AC00B0592F /* StoreItemView.swift */; };
 		B796C3DE2DD3741600B0592F /* StoresConteinerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B796C3DD2DD3741600B0592F /* StoresConteinerView.swift */; };
+		B7BCC7612DF84DFA002D5CFD /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCC7602DF84DFA002D5CFD /* Double+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		B764CEF42DD227440062E61A /* CarouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabView.swift; sourceTree = "<group>"; };
 		B796C3DB2DD370AC00B0592F /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
 		B796C3DD2DD3741600B0592F /* StoresConteinerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresConteinerView.swift; sourceTree = "<group>"; };
+		B7BCC7602DF84DFA002D5CFD /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		B70C38A02DD128FD002FAFC5 /* ChefDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				B7BCC75F2DF84DE2002D5CFD /* Extension */,
 				B70C38B02DD12E17002FAFC5 /* App */,
 				B70C38B62DD1417A002FAFC5 /* Model */,
 				B70C38AF2DD12DF9002FAFC5 /* NavigationBar */,
@@ -151,6 +154,14 @@
 			path = StoresView;
 			sourceTree = "<group>";
 		};
+		B7BCC75F2DF84DE2002D5CFD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCC7602DF84DFA002D5CFD /* Double+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -225,6 +236,7 @@
 				B701FD8C2DF726DD00367C66 /* ProductType.swift in Sources */,
 				B796C3DE2DD3741600B0592F /* StoresConteinerView.swift in Sources */,
 				B764CEF32DD224FB0062E61A /* CarouselItemView.swift in Sources */,
+				B7BCC7612DF84DFA002D5CFD /* Double+.swift in Sources */,
 				B70C38A42DD128FD002FAFC5 /* ContentView.swift in Sources */,
 				B70C38BA2DD14258002FAFC5 /* DataSourceMock.swift in Sources */,
 				B701FD8A2DF7266A00367C66 /* StoreFile.swift in Sources */,
