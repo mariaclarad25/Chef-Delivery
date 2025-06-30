@@ -25,13 +25,6 @@ struct OrderTypeGridView: View {
         }
     }
 
-/*#Preview {
+#Preview {
     OrderTypeGridView()
-}*/
-
-struct OrderTypeGridView_Previews: PreviewProvider {
-        static var previews: some View {
-                OrderTypeGridView()
-                .previewLayout(.sizeThatFits)
-        }
 }
