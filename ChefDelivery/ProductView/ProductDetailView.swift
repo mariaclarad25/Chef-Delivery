@@ -37,7 +37,7 @@ struct ProductDetailView: View {
             let result = try await service.confirmOrder(product: product)
             switch result {
             case .success(let message):
-                print (message)
+                print (message as Any)
             case .failure(let error):
                 print (error)
             }
